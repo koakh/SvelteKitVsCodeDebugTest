@@ -1,0 +1,58 @@
+Arguments: 
+  /usr/bin/node19 /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /home/mario/.local/share/solana/install/active_release/bin:/usr/lib/jvm/jdk-11.0.13+8/bin:/home/mario/.local/share/solana/install/active_release/bin:/home/mario/.local/share/solana/install/active_release/bin:/usr/lib/jvm/jdk-11.0.13+8/bin:/home/mario/.rover/bin:/home/mario/.local/share/solana/install/active_release/bin:/home/mario/.local/share/pnpm:/home/mario/.cargo/bin:/home/mario/.local/share/solana/install/active_release/bin:/usr/lib/jvm/jdk-11.0.13+8/bin:/home/mario/bin:/usr/local/bin:/usr/bin:/bin:/snap/bin:/home/mario/Android/Sdk/tools:/home/mario/Android/Sdk/platform-tools:/opt/flutter/bin:/usr/local/go/bin:/home/mario/Android/Sdk/tools:/home/mario/Android/Sdk/platform-tools:/opt/flutter/bin:/usr/local/go/bin:/home/mario/Android/Sdk/tools:/home/mario/Android/Sdk/platform-tools:/opt/flutter/bin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.7.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/mario/.cache/yarn/v6/npm-estraverse-4.3.0-398ad3f3c5a24948be7725e83d11a7de28cdbd1d-integrity/node_modules/estraverse/README.md' -> '/mnt/storage/Development/Svelte/SvelteKit/my-app-debug/node_modules/@typescript-eslint/utils/node_modules/estraverse/README.md'
+
+npm manifest: 
+  {
+  	"name": "my-app",
+  	"version": "0.0.1",
+  	"private": true,
+  	"scripts": {
+  		"dev": "vite dev",
+  		"debug": "vavite-loader vite dev",
+  		"build": "vite build",
+  		"preview": "vite preview",
+  		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+  		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+  		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+  		"format": "prettier --plugin-search-dir . --write ."
+  	},
+  	"devDependencies": {
+  		"@sveltejs/adapter-auto": "^2.0.0",
+  		"@sveltejs/kit": "^1.5.0",
+  		"@typescript-eslint/eslint-plugin": "^5.45.0",
+  		"@typescript-eslint/parser": "^5.45.0",
+  		"@vavite/node-loader": "^1.6.1",
+  		"eslint": "^8.28.0",
+  		"eslint-config-prettier": "^8.5.0",
+  		"eslint-plugin-svelte3": "^4.0.0",
+  		"prettier": "^2.8.0",
+  		"prettier-plugin-svelte": "^2.8.1",
+  		"svelte": "^3.54.0",
+  		"svelte-check": "^3.0.1",
+  		"tslib": "^2.4.1",
+  		"typescript": "^5.0.0",
+  		"vite": "^4.2.0"
+  	},
+  	"type": "module"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

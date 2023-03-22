@@ -1,38 +1,33 @@
-# create-svelte
+# README
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+read [NOTES](NOTES.md) for full steps
 
-## Creating a project
+## TLDR
 
-If you're seeing this, you've probably already done this step. Congrats!
+```shell
+# used system
+neofetch 
+  OS: openSUSE Tumbleweed x86_64 
+  Host: 82LM IdeaPad 5 14ALC05 
+  Kernel: 6.2.6-1-default 
+  Uptime: 31 mins 
+  Packages: 3624 (rpm), 12 (flatpak), 1 (appimaged) 
+  Shell: bash 5.2.15 
+  Resolution: 1920x1080 
+  DE: Plasma 5.27.3 
+  WM: kwin 
+  WM Theme: Breeze 
+  Theme: Layan [Plasma], Breeze [GTK2/3] 
+  Icons: Tela [Plasma], Tela [GTK2/3] 
+  Terminal: guake 
+  CPU: AMD Ryzen 5 5500U with Radeon Graphics (12) @ 2.100GHz 
+  GPU: AMD ATI 04:00.0 Lucienne 
+  Memory: 10509MiB / 15325MiB
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+# used node
+$ node -v
+v19.7.0
 
-# create a new project in my-app
-npm create svelte@latest my-app
+$ pnpm i
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
