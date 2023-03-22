@@ -38,12 +38,17 @@ create a new **Run and Debug Configuration** using the npm template, using comma
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Launch via NPM",
+      "name": "Launch via NPM",
+ 			"type": "node",			
 			"request": "launch",
-			"runtimeArgs": ["run-script", "debug"],
 			"runtimeExecutable": "npm",
-			"skipFiles": ["<node_internals>/**"],
-			"type": "node"
+			"runtimeArgs": [
+        "run-script", 
+        "debug",
+        "--host",
+        "--preserve-symlinks"
+      ],
+			"skipFiles": ["<node_internals>/**"]
 		}
 	]
 }
