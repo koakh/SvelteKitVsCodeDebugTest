@@ -2,6 +2,7 @@
 	"name": "my-app",
 	"version": "0.0.1",
 	"private": true,
+	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
 		"debug": "vavite-loader vite dev",
@@ -14,20 +15,19 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/kit": "^1.13.0",
-		"@typescript-eslint/eslint-plugin": "^5.45.0",
-		"@typescript-eslint/parser": "^5.45.0",
-		"@vavite/node-loader": "^1.6.1",
-		"eslint": "^8.28.0",
-		"eslint-config-prettier": "^8.5.0",
+		"@sveltejs/kit": "^1.15.0",
+		"@typescript-eslint/eslint-plugin": "^5.57.0",
+		"@typescript-eslint/parser": "^5.57.0",
+		"@vavite/node-loader": "^1.7.0",
+		"eslint": "^8.37.0",
+		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-svelte3": "^4.0.0",
-		"prettier": "^2.8.0",
-		"prettier-plugin-svelte": "^2.8.1",
-		"svelte": "^3.57.0",
+		"prettier": "^2.8.7",
+		"prettier-plugin-svelte": "^2.10.0",
+		"svelte": "^3.58.0",
 		"svelte-check": "^3.1.4",
-		"tslib": "^2.4.1",
-		"typescript": "^5.0.0",
+		"tslib": "^2.5.0",
+		"typescript": "^5.0.3",
 		"vite": "^4.2.1"
-	},
-	"type": "module"
+	}
 }
